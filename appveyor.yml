@@ -1,0 +1,8 @@
+image:
+  - Visual Studio 2017
+build_script:
+  - ps: .\build-utils\Build.ps1
+artifacts:
+  - path: '**\*.nupkg'
+test_script:
+  - ps: .\build-utils\Test.ps1 -Logger Appveyor
