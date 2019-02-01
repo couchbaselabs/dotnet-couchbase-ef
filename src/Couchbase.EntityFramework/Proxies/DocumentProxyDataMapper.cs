@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using Couchbase.Configuration.Client;
 using Couchbase.Core.Serialization;
-using Couchbase.Linq;
 using Couchbase.Views;
 
 namespace Couchbase.EntityFramework.Proxies

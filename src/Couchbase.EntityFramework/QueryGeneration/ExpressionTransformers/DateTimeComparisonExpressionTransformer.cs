@@ -6,7 +6,6 @@ using System.Reflection;
 using Couchbase.EntityFramework.QueryGeneration.MethodCallTranslators;
 using Couchbase.EntityFramework.Serialization;
 using Couchbase.EntityFramework.Serialization.Converters;
-using Couchbase.Linq.Serialization;
 using Remotion.Linq.Parsing.ExpressionVisitors.Transformation;
 
 namespace Couchbase.EntityFramework.QueryGeneration.ExpressionTransformers

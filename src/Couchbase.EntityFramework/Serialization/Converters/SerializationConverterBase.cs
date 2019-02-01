@@ -4,7 +4,6 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using Couchbase.EntityFramework.QueryGeneration;
-using Couchbase.Linq.Serialization;
 
 namespace Couchbase.EntityFramework.Serialization.Converters
 {

@@ -1,6 +1,4 @@
-﻿using Couchbase.Linq;
-
-namespace Couchbase.EntityFramework
+﻿namespace Couchbase.EntityFramework
 {
     /// <summary>
     /// Thrown if a write operation fails because the document has been modified since it was read.

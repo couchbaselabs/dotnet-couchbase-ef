@@ -1,5 +1,4 @@
 ﻿using System.Runtime.Serialization;
-using Couchbase.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using Couchbase.Core.Serialization;
-using Couchbase.Linq.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 

@@ -1,6 +1,4 @@
-﻿using Couchbase.Linq;
-
-namespace Couchbase.EntityFramework.Metadata
+﻿namespace Couchbase.EntityFramework.Metadata
 {
     /// <summary>
     /// Returns metadata about the document object the interface is attached to

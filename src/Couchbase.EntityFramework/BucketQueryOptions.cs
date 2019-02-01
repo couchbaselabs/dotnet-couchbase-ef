@@ -1,6 +1,5 @@
 ﻿using System;
 using Couchbase.EntityFramework.Filters;
-using Couchbase.Linq;
 
 namespace Couchbase.EntityFramework
 {
