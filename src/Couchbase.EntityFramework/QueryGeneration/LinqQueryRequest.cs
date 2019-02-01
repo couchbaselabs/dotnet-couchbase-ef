@@ -3,7 +3,6 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using Couchbase.EntityFramework.Execution;
-using Couchbase.Linq;
 using Couchbase.N1QL;
 using Remotion.Linq.Parsing.ExpressionVisitors;
 

@@ -16,15 +16,12 @@ namespace Couchbase.EntityFramework
             // using LINQ-to-Objects and faking a Couchbase database
             // Any faked document object should implement IDocumentMetadataProvider
 
-            var provider = document as IDocumentMetadataProvider;
-            if (provider != null)
+            if (document is IDocumentMetadataProvider provider)
             {
                 return provider.GetMetadata();
             }
-            else
-            {
-                return null;
-            }
+
+            return null;
         }
 
         /// <summary>
@@ -39,17 +36,14 @@ namespace Couchbase.EntityFramework
             // using LINQ-to-Objects and faking a Couchbase database
             // Any faked document object should implement IDocumentMetadataProvider
 
-            var provider = document as IDocumentMetadataProvider;
-            if (provider != null)
+            if (document is IDocumentMetadataProvider provider)
             {
                 var metadata = provider.GetMetadata();
 
-                return metadata != null ? metadata.Id : null;
+                return metadata?.Id;
             }
-            else
-            {
-                return null;
-            }
+
+            return null;
         }
     }
 }

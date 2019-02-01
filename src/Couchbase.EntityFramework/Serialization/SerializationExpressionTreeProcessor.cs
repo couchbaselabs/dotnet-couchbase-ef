@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
 using Couchbase.Core.Serialization;
-using Couchbase.Linq;
 using Couchbase.Linq.Serialization;
 using Remotion.Linq.Parsing.Structure;
 

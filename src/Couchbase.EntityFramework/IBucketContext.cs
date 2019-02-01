@@ -2,7 +2,6 @@
 using Couchbase.Configuration.Client;
 using Couchbase.Core;
 using Couchbase.EntityFramework.Extensions;
-using Couchbase.Linq;
 using Couchbase.N1QL;
 
 namespace Couchbase.EntityFramework

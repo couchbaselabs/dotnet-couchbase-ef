@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Reflection;
 using Couchbase.Core.Serialization;
 using Couchbase.EntityFramework.Serialization.Converters;
-using Couchbase.Linq.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 

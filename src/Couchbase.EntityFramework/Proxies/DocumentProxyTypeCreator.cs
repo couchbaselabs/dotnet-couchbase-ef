@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Couchbase.Core.Serialization;
-using Couchbase.Linq;
 
 namespace Couchbase.EntityFramework.Proxies
 {

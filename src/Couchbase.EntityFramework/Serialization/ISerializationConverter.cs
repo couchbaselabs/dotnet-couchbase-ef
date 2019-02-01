@@ -1,6 +1,5 @@
 ﻿using System.Linq.Expressions;
 using Couchbase.EntityFramework.QueryGeneration;
-using Couchbase.Linq.Serialization;
 
 namespace Couchbase.EntityFramework.Serialization
 {
